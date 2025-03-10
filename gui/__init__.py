@@ -1,0 +1,1 @@
+__all__ = ["code_editor", "crafting_table", "debug_panel", "template_panel"]
