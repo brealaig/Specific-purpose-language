@@ -1,0 +1,8 @@
+recipe iron_door {
+    input: [ (0,0) 1 iron_ingot, (0,1) 1 iron_ingot,
+             (1,0) 1 iron_ingot, (1,1) 1 iron_ingot,
+             (2,0) 1 iron_ingot, (2,1) 1 iron_ingot ];
+    output: iron_door;
+    tool_required: crafting_table;
+    quantity: 1;
+}

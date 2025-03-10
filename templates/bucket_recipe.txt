@@ -1,0 +1,7 @@
+recipe bucket {
+    input: [ (1,0) 1 iron_ingot, (1,2) 1 iron_ingot,
+             (2,1) 1 iron_ingot ];
+    output: bucket;
+    tool_required: crafting_table;
+    quantity: 1;
+}

@@ -1,0 +1,6 @@
+recipe cookie {
+    input: [ (1,0) 1 wheat, (1,1) 1 sugar, (1,2) 1 wheat ];
+    output: cookie;
+    tool_required: crafting_table;
+    quantity: 8;
+}

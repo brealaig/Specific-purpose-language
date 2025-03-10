@@ -1,0 +1,6 @@
+recipe bread {
+    input: [ (1,0) 1 wheat, (1,1) 1 wheat, (1,2) 1 wheat ];
+    output: bread;
+    tool_required: crafting_table;
+    quantity: 1;
+}

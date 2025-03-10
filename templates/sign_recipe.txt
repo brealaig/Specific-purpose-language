@@ -1,0 +1,8 @@
+recipe sign {
+    input: [ (0,0) 1 wood_plank, (0,1) 1 wood_plank, (0,2) 1 wood_plank,
+             (1,0) 1 wood_plank, (1,1) 1 wood_plank, (1,2) 1 wood_plank,
+             (2,1) 1 stick ];
+    output: sign;
+    tool_required: crafting_table;
+    quantity: 3;
+}

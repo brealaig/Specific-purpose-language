@@ -1,0 +1,8 @@
+recipe iron_pickaxe {
+    input: [ (0,0) 1 iron_ingot, (0,1) 1 iron_ingot, (0,2) 1 iron_ingot,
+             (1,1) 1 stick,
+             (2,1) 1 stick ];
+    output: iron_pickaxe;
+    tool_required: crafting_table;
+    quantity: 1;
+}

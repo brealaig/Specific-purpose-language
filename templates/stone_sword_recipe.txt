@@ -1,0 +1,8 @@
+recipe stone_sword {
+    input: [ (0,1) 1 cobblestone,
+             (1,1) 1 cobblestone,
+             (2,1) 1 stick ];
+    output: stone_sword;
+    tool_required: crafting_table;
+    quantity: 1;
+}

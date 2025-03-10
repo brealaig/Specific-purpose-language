@@ -1,0 +1,8 @@
+recipe stone_axe {
+    input: [ (0,0) 1 cobblestone, (0,1) 1 cobblestone,
+             (1,0) 1 cobblestone, (1,1) 1 stick,
+             (2,1) 1 stick ];
+    output: stone_axe;
+    tool_required: crafting_table;
+    quantity: 1;
+}

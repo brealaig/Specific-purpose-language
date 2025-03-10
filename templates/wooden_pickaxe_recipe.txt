@@ -1,0 +1,8 @@
+recipe wooden_pickaxe {
+    input: [ (0,0) 1 wood_plank, (0,1) 1 wood_plank, (0,2) 1 wood_plank,
+             (1,1) 1 stick,
+             (2,1) 1 stick ];
+    output: wooden_pickaxe;
+    tool_required: crafting_table;
+    quantity: 1;
+}

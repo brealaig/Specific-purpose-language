@@ -1,0 +1,8 @@
+recipe golden_apple {
+    input: [ (0,0) 1 gold_ingot, (0,1) 1 gold_ingot, (0,2) 1 gold_ingot,
+             (1,0) 1 gold_ingot, (1,1) 1 apple,     (1,2) 1 gold_ingot,
+             (2,0) 1 gold_ingot, (2,1) 1 gold_ingot, (2,2) 1 gold_ingot ];
+    output: golden_apple;
+    tool_required: crafting_table;
+    quantity: 1;
+}

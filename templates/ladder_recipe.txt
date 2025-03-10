@@ -1,0 +1,8 @@
+recipe ladder {
+    input: [ (0,0) 1 stick, (0,2) 1 stick,
+             (1,0) 1 stick, (1,1) 1 stick, (1,2) 1 stick,
+             (2,0) 1 stick, (2,2) 1 stick ];
+    output: ladder;
+    tool_required: crafting_table;
+    quantity: 3;
+}

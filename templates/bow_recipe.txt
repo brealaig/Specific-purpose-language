@@ -1,0 +1,7 @@
+recipe bow {
+    input: [ (0,1) 1 stick, (1,2) 1 stick, (2,1) 1 stick,
+             (0,0) 1 string, (1,0) 1 string, (2,0) 1 string ];
+    output: bow;
+    tool_required: crafting_table;
+    quantity: 1;
+}

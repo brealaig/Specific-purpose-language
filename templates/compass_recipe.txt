@@ -1,0 +1,8 @@
+recipe compass {
+    input: [ (0,1) 1 iron_ingot,
+             (1,0) 1 iron_ingot, (1,1) 1 redstone,
+             (1,2) 1 iron_ingot, (2,1) 1 iron_ingot ];
+    output: compass;
+    tool_required: crafting_table;
+    quantity: 1;
+}

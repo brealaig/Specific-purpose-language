@@ -1,0 +1,8 @@
+recipe cake {
+    input: [ (0,0) 1 milk_bucket, (0,1) 1 milk_bucket, (0,2) 1 milk_bucket,
+             (1,0) 1 sugar,        (1,1) 1 egg,         (1,2) 1 sugar,
+             (2,0) 1 wheat,        (2,1) 1 wheat,       (2,2) 1 wheat ];
+    output: cake;
+    tool_required: crafting_table;
+    quantity: 1;
+}

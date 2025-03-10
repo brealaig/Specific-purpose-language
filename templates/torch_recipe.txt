@@ -1,0 +1,6 @@
+recipe torch {
+    input: [ (0,1) 1 coal, (1,1) 1 stick ];
+    output: torch;
+    tool_required: crafting_table;
+    quantity: 4;
+}

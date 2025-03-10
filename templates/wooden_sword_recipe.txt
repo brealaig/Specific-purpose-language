@@ -1,0 +1,8 @@
+recipe wooden_sword {
+    input: [ (0,1) 1 wood_plank,
+             (1,1) 1 wood_plank,
+             (2,1) 1 stick ];
+    output: wooden_sword;
+    tool_required: crafting_table;
+    quantity: 1;
+}

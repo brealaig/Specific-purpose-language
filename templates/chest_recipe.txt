@@ -1,0 +1,8 @@
+recipe chest {
+    input: [ (0,0) 1 wood_plank, (0,1) 1 wood_plank, (0,2) 1 wood_plank,
+             (1,0) 1 wood_plank,                           (1,2) 1 wood_plank,
+             (2,0) 1 wood_plank, (2,1) 1 wood_plank, (2,2) 1 wood_plank ];
+    output: chest;
+    tool_required: crafting_table;
+    quantity: 1;
+}
